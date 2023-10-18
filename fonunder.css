@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?famiyl=Poppins:200,300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 10;
+  padding-right: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #151515;
+}
+.abhishek {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+.abhishek:hover {
+  width: 600px;
+  transition-delay: 0.5s;
+}
+.abhishek .circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.abhishek .circle::before {
+  content: "";
+  position: absolute;
+  top: 30;
+  left: 2;
+  right: 2;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background: #191919;
+  border: 8px solid var(--clr);
+  filter: drop-shadow(0 0 10px var(--clr)) drop-shadow(0 0 100px var(--clr));
+  transition: 0.5s, background 0.5s;
+  transition-delay: 0.75s, 1s;
+}
+.abhishek:hover .circle::before {
+  transition-delay: 0.5s;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background: var(--clr);
+  background: #ffc403;
+}
+.abhishek .circle .logo {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+.abhishek:hover .circle .logo {
+  transform: scale(0);
+  transition-delay: 0s;
+}
+.abhishek .product_img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0) rotate(1000deg);
+  height: 300px;
+  width: 350px;
+  transition: 0.5s ease-in-out;
+}
+.abhishek:hover .product_img {
+  transition-delay: 0.75s;
+  top: 50%;
+  left: 75%;
+  height: 400px;
+  width: 300px;
+  transform: translate(-50%, -50%) scale(1) rotate(0deg);
+}
+.abhishek .content {
+  position: absolute;
+  width: 50%;
+  left: 20%;
+  padding: 20px 20px 20px 20px;
+  opacity: 0;
+  transition: 0.5s;
+  visibility: hidden;
+}
+.abhishek:hover .content {
+  transition-delay: 0.75s;
+  opacity: 1;
+  visibility: visible;
+  left: 20px;
+}
+.abhishek .content h3 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  line-height: 1em;
+}
+.abhishek .content p {
+  color: #fff;
+}
+.abhishek .content a {
+  position: relative;
+  color: #111111;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 10px;
+}
