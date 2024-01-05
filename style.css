@@ -115,7 +115,7 @@ label.logo1{
     font-weight: bold ;
 }
 
-/* .panel-2 .heading::after{
+.panel-2 .heading::after{
     content: "";
     height: 4px;
     width: 350px;
@@ -123,11 +123,14 @@ label.logo1{
     display: block;
     margin:auto;
 
-} */
+}
+
 .panel-2 .container {
     align-items: center;
     flex-wrap: wrap;
     display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
     justify-content: space-between; 
 }
 .container .card{
@@ -148,6 +151,7 @@ label.logo1{
     border-radius: 15px;
     
 }
+
 .card p{
     margin-bottom: 10px;
 }
@@ -182,9 +186,21 @@ label.logo1{
 .panel-3{
     width: 100%;
 }
+ 
 .panel-3 h1{
     text-align: center;
     margin-top: 80px;
+}
+
+.panel-3 h1::after{
+
+    content: "";
+    height: 4px;
+    width: 150px;
+    background-color: #000;
+    display: block;
+    margin:auto;
+   
 }
 .panel-3 .panel-3-base{
     align-items: center;
@@ -319,7 +335,6 @@ footer {
     margin: 5px;
 }
 
-
 .usefullist li a {
 
     color: #fff;
@@ -331,8 +346,7 @@ footer {
 .usefullist li a:hover {
 
     color: chocolate;
-    font-size: 1.2rem;
-
+    transition: all ease 0.5s;
 }
 
 .copyright{
