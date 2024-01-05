@@ -20,18 +20,9 @@ body{
     cursor: pointer;
 }
 
- h1{
-    text-align: center;
-   padding-top: 20px;
-   padding-bottom: 10px;
-}
-.who .whoimg{
-  padding: 15px;
-}
-
 .title h1{
     text-align: center;
-    padding-top: 5px;
+    margin-top: 10px;
     font-size: 42px;
 }
 .title h1::after{
@@ -68,11 +59,7 @@ body{
     background-color: #b8d4de;
     transition: 0.4s ease;
 }
-/* .card .icon{
-    font-size: 35px;
-    margin-bottom: 10px;
 
-} */
 .card h2{
     font-size: 28px;
     color: #c94f4f;
@@ -100,6 +87,7 @@ body{
     transition: 0.4s ease;
 }
 
+
 @media screen and (max-width: 940px){
     .services{
         display: flex;
@@ -117,25 +105,4 @@ body{
         border-radius: 10px;
         
     }
-}
-
-@media screen and (max-width: 1050px){
-    h1{
-        text-align: center;
-       padding-top: 60px;
-       padding-bottom: px;
-    }
-}
-@media screen and (max-width: 950px){
-    .who{
-        flex-direction: column;
-    }
-}
-@media screen and (max-width: 700px){
-    .who{
-       width: 90%;
-       padding: 10px 10px;
-       
-    }
-    
 }
