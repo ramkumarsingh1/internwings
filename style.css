@@ -118,19 +118,17 @@ label.logo1{
 .panel-2 .heading::after{
     content: "";
     height: 4px;
-    width: 350px;
+    width: 40vh;
     background-color: #000;
     display: block;
     margin:auto;
-
 }
 
 .panel-2 .container {
     align-items: center;
     flex-wrap: wrap;
     display: flex;
-    padding-left: 50px;
-    padding-right: 50px;
+    gap: 30px;
     justify-content: space-between; 
 }
 .container .card{
