@@ -133,7 +133,7 @@ label.logo1{
 .container .card{
     flex:  1 1 20rem;
     display: flex;
-    margin: 40px 20px;
+    margin: 30px 40px;
     flex-direction: column;
     background-color: #ffff;
     box-shadow: .01px .01px 5px .01px #cecece;
