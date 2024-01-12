@@ -76,11 +76,11 @@ label.logo1{
     color: rgb(252, 151, 56);
 }
 .checkbtn{
-    font-size: 30px;
+    font-size: 1.5rem;
     color: white;
     float: right;
     line-height: 50px;
-    margin-right: 40px;
+    margin-right: 15px;
     cursor: pointer;
     display: none;
 }
