@@ -20,6 +20,7 @@
     }
     .navbar{
         position: fixed;
+        border-bottom: 2px solid #fefefe;
     }
     ul{
         flex-direction: column;
