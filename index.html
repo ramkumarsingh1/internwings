@@ -227,10 +227,10 @@
                 <p><a href="founder.html">Founder</a></p>
             </div>
             <div class="panel-3-box">
-                <a href="#">
+                <a href="cofounder.html">
                     <h2>Pintu Kumar Sharma </h2>
                 </a>
-                <p><a href="#">Co-Founder</a></p>
+                <p><a href="cofounder.html">Co-Founder</a></p>
             </div>
             <div class="panel-3-box">
                 <h2>2023</h2>
@@ -293,11 +293,35 @@
         </div>
         <div class="copyright">
             <p>Copyright @ Intern Wings. All Rights Reserved 2023.</p>
-        </div>
-    </footer>
+        </div>  
+        
 
+        <!-- back to top -->
+        
+        <div id="back-to-top" onclick="scrollToTop()">Back to Top</div>
+
+    </div>
+
+    <script>
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("back-to-top").style.display = "block";
+            } else {
+                document.getElementById("back-to-top").style.display = "none";
+            }
+        }
+
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    </footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
-    <script src="scripct.js"></script>
+    <!-- <script src="scripct.js"></script> -->
 </body>
 
 </html>
