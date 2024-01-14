@@ -20,11 +20,11 @@ body{
     width: 60px;
     height: 60px;
     right: 2rem;
-    bottom: 2rem;
+    bottom: 2.6rem;
     align-items: center;
     text-align: center;
     color: #fff;
-    position: absolute;
+    position: fixed;
     border: 2px solid #fff;
     border-radius: 50%;
     display: inline-flex;
