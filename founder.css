@@ -3,6 +3,7 @@
     display: flex;
     width: 80%;
     margin-left: 10%;
+    margin-top: 20px;
     background-color: #ffff;
     box-shadow: .05px .05px 5px .05px #cecece;
     border-radius: 20px;
@@ -16,7 +17,7 @@
     height: 80vh;
 }
 .lines .lines-cont .cont{
-    font-size: 30px;
+    font-size: 25px;
 }
 .lines-cont{
     margin-top: 10%;
@@ -52,6 +53,7 @@
     width: 95%;
     margin-left: 2.5%;
     margin-bottom: 5%;
+    margin-top: 0px;
     padding-top: 45px;
     background-color: #ffff;
     box-shadow: .05px .05px 5px .05px #cecece;
