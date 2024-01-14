@@ -7,9 +7,12 @@
     text-decoration: none;
     font-family: "Poppins", sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
-
+    scroll-behavior: smooth;
     position: relative;
 }
 .query{
@@ -383,6 +386,20 @@ footer {
     background-color: black;
 }
 
+/* back to top */
+
+#back-to-top {
+  
+    position: fixed;
+    bottom: 5px;
+    right: 20px;
+    background-color: rgb(106, 10, 216);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
 
 /* services panel-4 */
 @media screen and (max-width: 940px){
