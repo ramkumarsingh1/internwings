@@ -19,12 +19,12 @@
     display: flex;
     border-radius: 15px;
     border: 2px solid #272424;
+    position: absolute;
 }
 
 .info{
 
-    height: 50vh;
-    width: 75vh;
+    position: relative;
     padding: 20px; 
     gap: 30px;
     border-radius: 15px;
@@ -43,8 +43,8 @@ input{
     margin-bottom: 20px;
     padding-left: 10px;
     border-radius: 5px;
-    height: 2.5rem;
-    width: 30rem;
+    height:  2.5rem;
+    width: 30vw;
 }
 .message{
 
@@ -55,8 +55,8 @@ input{
 }
 .submit{
 
-    height: 2.5rem;
-    width: 30rem;
+    height:  2.5rem;
+    width: 30vw;
     font-size: 20px;
     border-radius: 15px;
     color: #fff;
@@ -72,7 +72,6 @@ input{
 }
 
 .image{
-
     height: 65vh;
     margin: 20px;
     width: 60vh;
@@ -82,4 +81,30 @@ input{
     background-size: cover;
     background-position: center;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 980px) {
+
+    .content{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input{
+
+        width: 50vw;
+    }
+    
+    .submit{
+
+        width: 50vw;
+    }
+    .image{
+
+        display: none;
+    }
+    
 }
