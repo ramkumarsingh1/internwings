@@ -91,16 +91,18 @@ input{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 90vw;
+        margin-top: 2rem;
     }
 
     input{
 
-        width: 50vw;
+        width: 70vw;
     }
     
     .submit{
 
-        width: 50vw;
+        width: 70vw;
     }
     .image{
 
