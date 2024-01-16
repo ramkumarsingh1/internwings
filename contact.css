@@ -19,12 +19,10 @@
     display: flex;
     border-radius: 15px;
     border: 2px solid #272424;
-    position: absolute;
 }
 
 .info{
 
-    position: relative;
     padding: 20px; 
     gap: 30px;
     border-radius: 15px;
