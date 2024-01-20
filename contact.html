@@ -147,10 +147,10 @@
         }).then((res) => res.text())
             .then((finalRes) => {
                 f.target.btn.innerHTML = "Submit"
-                document.getElementById("res").innerHTML = finalRes;
+                document.getElementById("res").innerHTML = 'Message Sent Successfully';
                 form.reset();
                 setTimeout(() => {
-                    document.getElementById("res").innerHTML = 'Message Sent Successfully';
+                    document.getElementById("res").innerHTML = 'Thank you';
                 }, 5000)
                 console.log(finalRes)
             })
